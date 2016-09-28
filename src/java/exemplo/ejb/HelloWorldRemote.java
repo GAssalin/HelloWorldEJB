@@ -5,10 +5,14 @@
  */
 package exemplo.ejb;
 
+import javax.ejb.Remote;
+
 /**
  *
  * @author gustavosa
  */
+
+@Remote
 public interface HelloWorldRemote {
     public String olaMundo();
 }
